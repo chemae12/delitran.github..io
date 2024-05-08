@@ -1,0 +1,271 @@
+:root {
+  --bg1: #3b393a;
+  --bg2: rgba(163, 163, 163, 0.956);
+  --body: white;
+  --brand: #e7b7c8;
+  --white: rgba(255, 252, 252, 0.911);
+  --p: rgb(161, 150, 150);
+}
+* {
+  font-family: "Poppins", serif;
+}
+.backs {
+  background: linear-gradient(
+      to top,
+      hsla(0, 2%, 17%, 0.3),
+      rgba(44, 42, 42, 0.658)
+    ),
+    url(https://img.freepik.com/premium-photo/bottle-skincare-pink-flower_220363-1134.jpg);
+  background-size: cover;
+}
+
+.logo {
+  width: 4%;
+  border-radius: 60%;
+  padding: 3px;
+  margin-left: 20px;
+}
+
+.navbar #navbarNav .nav-link.active {
+  color: var(--brand);
+}
+
+.navbar .nav-link:hover {
+  color: var(--brand);
+}
+
+#banner {
+  height: 100vh;
+  background: linear-gradient(
+      to right,
+      hsla(0, 2%, 17%, 0.3),
+      rgba(44, 42, 42, 0.658)
+    ),
+    url(https://i.pinimg.com/736x/85/34/e4/8534e4be3014b3848424babbf85e7b6c.jpg);
+  background-size: cover;
+}
+
+/* BUTTON */
+.btn {
+  padding: 15px 30px;
+  transition: all 0.4s ease;
+  font-weight: 800;
+  border-radius: 0;
+}
+
+.btn-brand {
+  background-color: var(--brand);
+}
+
+.btn-brand:hover {
+  background-color: transparent;
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+h1 {
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#Services {
+  background-color: whitesmoke;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+img {
+  width: 75%;
+}
+
+h2 {
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#About {
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.icon-box-img {
+  width: 40%;
+  margin: 20px;
+  align-self: center;
+}
+
+.btn-outline-brand {
+  background-color: transparent;
+  border-color: violet;
+  color: gray;
+}
+
+.btn-outline-brand:hover {
+  background-color: transparent;
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.card {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card:hover {
+  background-color: var(--brand);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+  color: #ffffff;
+}
+
+#cta {
+  background: linear-gradient(
+      to top,
+      hsla(0, 2%, 17%, 0.3),
+      rgba(44, 42, 42, 0.658)
+    ),
+    url(https://t3.ftcdn.net/jpg/02/45/13/78/360_F_245137894_v2TUM15iRQAMsNpI2v84bkxWhU2fRDoD.jpg);
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* parallax effect */
+  background-attachment: fixed;
+  min-height: 70vh;
+}
+.che {
+  width: 65px;
+  border-radius: 100px;
+  height: 65px;
+}
+
+#reviews {
+  background-color: whitesmoke;
+}
+.testimonials {
+  background: #e7b7c8;
+}
+
+#reviews a {
+  color: var(--brand);
+}
+
+#faq {
+  background-color: whitesmoke;
+}
+.faq-section {
+  max-width: 800px;
+  margin: auto;
+}
+.accordion-item {
+  margin-bottom: 20px;
+  border-radius: 0 !important;
+}
+.faq-question {
+  background-color: var(--brand);
+  border: none;
+  border-bottom: 1px solid #758d;
+  border-radius: 0;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0a345e;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.faq-answer {
+  border-left: 3px solid var(--brand);
+  padding: 10px 15px;
+  margin-left: 0;
+  background-color: #f699cd;
+}
+.faq-answer p {
+  margin-bottom: 0;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--body);
+  background-color: var(--brand);
+}
+.faq-question:hover {
+  background-color: #f699cd;
+  color: var(--body);
+}
+.accordion-button::after {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  float: right;
+  font-weight: 900;
+  margin-left: auto;
+}
+
+.accordion-button [aria-expanded="true"]::after {
+  content: "";
+}
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(
+      to right,
+      hsla(0, 2%, 17%, 0.3),
+      rgba(44, 42, 42, 0.653)
+    ),
+    url(https://th.bing.com/th/id/R.add4603613a522d9d91eb6dd0b16e11b?rik=qS5Z%2bCiyARq2tw&riu=http%3a%2f%2fpapers.co%2fwallpaper%2fpapers.co-sk12-cute-pink-blur-gradation-29-wallpaper.jpg&ehk=JhVELrN64ubCgttOCdonBarizRdMmeUQlrp3pgcRQTc%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+}
+#footer ul.list-unstyled li a {
+  color: #dae2e9;
+  text-decoration: none;
+}
+#footer ul.list-unstyled li:hover a {
+  color: var(--brand);
+}
+#reviews h2,
+#services h2 {
+  color: rgb(59, 39, 14);
+}
+
+.btn-outline-light {
+  border-color: #2d2a2b;
+  color: var(--brand);
+}
+#footer h5 {
+  color: black;
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .logo {
+    width: 15%;
+  }
+  section {
+    padding: 60px 10px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  #about {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+  }
+
+  #footer {
+    padding: 50px 20px;
+  }
+}
+#location {
+  width: 32%;
+}
